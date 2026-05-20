@@ -1,0 +1,41 @@
+body{
+  font-family: Arial;
+  background:skyblue;
+  justify-content: center;
+}
+
+.container{
+  width:500px;
+  margin:auto;
+  text-align:center;
+}
+
+.product{
+  border:1px solid #ccc;
+  padding:10px;
+  margin:10px;
+  background:white;
+  display:flex
+  
+}
+
+.cart-item{
+  border:1px solid #aaa;
+  padding:10px;
+  margin:10px;
+  background:#fff;
+  display:flex
+}
+
+button{
+  padding:5px 10px;
+  margin:5px;
+  cursor:pointer;
+}
+
+.qty{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+}
